@@ -2,7 +2,7 @@
 Material for a mini tutorial to get started working with pandera for data validation.
 
 ## Quickstart
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carolinscholl/pandera-intro/main). 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carolinscholl/pandera-intro/main)
 
 You can directly open and run the Jupyter notebook in an executable environment by clicking on the binder batch displayed above. Your changes will not be saved. 
 
