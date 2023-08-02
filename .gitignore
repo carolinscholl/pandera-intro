@@ -154,3 +154,6 @@ cython_debug/
 
 # PyCharm
 .idea/
+
+# solution to notebook mini tasks
+solution.py

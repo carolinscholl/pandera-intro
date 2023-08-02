@@ -1,0 +1,130 @@
+{
+  "schema_type": "dataframe",
+  "version": "0.16.1",
+  "columns": {
+    "var_bool": {
+      "title": null,
+      "description": null,
+      "dtype": "bool",
+      "nullable": false,
+      "checks": null,
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_signed_int": {
+      "title": null,
+      "description": null,
+      "dtype": "int64",
+      "nullable": false,
+      "checks": {
+        "greater_than_or_equal_to": -200.0,
+        "less_than_or_equal_to": 200.0
+      },
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_unsigned_int": {
+      "title": null,
+      "description": null,
+      "dtype": "int64",
+      "nullable": false,
+      "checks": {
+        "greater_than_or_equal_to": 0.0,
+        "less_than_or_equal_to": 20.0
+      },
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_float": {
+      "title": null,
+      "description": null,
+      "dtype": "float64",
+      "nullable": true,
+      "checks": {
+        "greater_than_or_equal_to": -100.7,
+        "less_than_or_equal_to": 4.6
+      },
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_str": {
+      "title": null,
+      "description": null,
+      "dtype": "object",
+      "nullable": false,
+      "checks": null,
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_date": {
+      "title": null,
+      "description": null,
+      "dtype": "object",
+      "nullable": false,
+      "checks": null,
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_categorical": {
+      "title": null,
+      "description": null,
+      "dtype": "object",
+      "nullable": false,
+      "checks": null,
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    },
+    "var_constant": {
+      "title": null,
+      "description": null,
+      "dtype": "object",
+      "nullable": false,
+      "checks": null,
+      "unique": false,
+      "coerce": false,
+      "required": true,
+      "regex": false
+    }
+  },
+  "checks": null,
+  "index": [
+    {
+      "title": null,
+      "description": null,
+      "dtype": "int64",
+      "nullable": false,
+      "checks": {
+        "greater_than_or_equal_to": 0.0,
+        "less_than_or_equal_to": 12.0
+      },
+      "name": null,
+      "unique": false,
+      "coerce": false
+    }
+  ],
+  "dtype": null,
+  "coerce": true,
+  "strict": false,
+  "name": null,
+  "ordered": false,
+  "unique": null,
+  "report_duplicates": "all",
+  "unique_column_names": false,
+  "add_missing_columns": false,
+  "title": null,
+  "description": null
+}
